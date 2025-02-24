@@ -13,3 +13,15 @@ const list = [1,2];
 //for ex I can add elements to the list
 list.push(3);
 console.log(list);
+
+//strings
+let s = "hello";
+//strings are immutable, so I cannot change the value of a string
+//s[0] = "H"; //this will throw an error if in strict mode, otherwise it will just ignore the operation
+//I can however reassign the value of the string
+s = "Hello";
+console.log(s);
+let s_upper = s.toUpperCase();
+console.log(s_upper);
+let s_lower = s.toLowerCase();
+console.log(s_lower);
