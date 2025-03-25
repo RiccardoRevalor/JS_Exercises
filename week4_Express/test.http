@@ -1,0 +1,13 @@
+GET http://localhost:3001/
+
+
+### 
+
+
+POST http://localhost:3001/new_user
+
+This is a post body
+
+
+### 
+GET http://localhost:3001/info.txt
